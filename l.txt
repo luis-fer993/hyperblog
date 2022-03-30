@@ -1,0 +1,25 @@
+
+git-reset(1) Manual Page
+NAME
+
+git-reset - Reset current HEAD to the specified state
+SYNOPSIS
+
+git reset [-q] [<tree-ish>] [--] <pathspec>…​
+git reset [-q] [--pathspec-from-file=<file> [--pathspec-file-nul]] [<tree-ish>]
+git reset (--patch | -p) [<tree-ish>] [--] [<pathspec>…​]
+git reset [--soft | --mixed [-N] | --hard | --merge | --keep] [-q] [<commit>]
+DEPRECATED: git reset [-q] [--stdin [-z]] [<tree-ish>]
+
+DESCRIPTION
+
+In the first three forms, copy entries from <tree-ish> to the index. In the last form, set the current branch head (HEAD) to <commit>, optionally modifying index and working tree to match. The <tree-ish>/<commit> defaults to HEAD in all forms.
+
+git reset [-q] [<tree-ish>] [--] <pathspec>…​
+git reset [-q] [--pathspec-from-file=<file> [--pathspec-file-nul]] [<tree-ish>]
+
+    These forms reset the index entries for all paths that match the <pathspec> to their state at <tree-ish>. (It does not affect the working tree or the current branch.)
+
+    This means that git reset <pathspec> is the opposite of git add <pathspec>. This command is equivalent to git restore [--source=<tree-ish>] --staged <pathspec>....
+
+    After running git reset <pathspec> to update the index entry, you can use git-restore(1) to check the contents out of the index to the working tree. Alternatively, using git-res
