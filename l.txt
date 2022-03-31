@@ -23,3 +23,7 @@ git reset [-q] [--pathspec-from-file=<file> [--pathspec-file-nul]] [<tree-ish>]
     This means that git reset <pathspec> is the opposite of git add <pathspec>. This command is equivalent to git restore [--source=<tree-ish>] --staged <pathspec>....
 
     After running git reset <pathspec> to update the index entry, you can use git-restore(1) to check the contents out of the index to the working tree. Alternatively, using git-res
+    
+    
+agrego esta linea de prueba
+    
