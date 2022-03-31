@@ -1,0 +1,27 @@
+body{
+    padding: 1em;
+}
+
+p{
+    color: gray;
+    border: 2px solid rgb(87, 193, 255);
+}
+h1{
+    color: tomato;
+}
+
+
+
+.blogs{
+    border: 1px solid black;
+    box-shadow: 2px 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.blogs p{
+    background-color: rgb(211, 211, 211);
+    padding: .5em;
+    color: black;
+    border: none;
+}
