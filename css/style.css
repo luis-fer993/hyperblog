@@ -49,5 +49,7 @@ h1{
 
 
 .footer{
-    
+    background-color: aqua;
+    border: 1px solid red;
+    margin-top: 1em;
 }
