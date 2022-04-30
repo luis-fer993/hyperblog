@@ -49,7 +49,12 @@ h1{
 
 
 .footer{
-    background-color: aqua;
-    border: 1px solid red;
+    background-color: rgb(25, 31, 43);
+    border: 2px solid rgb(255, 61, 61);
     margin-top: 1em;
+    padding: 2em;
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    border: hidden !important;
 }
