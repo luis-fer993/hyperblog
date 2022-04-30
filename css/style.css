@@ -1,5 +1,6 @@
 body{
     padding: 1em;
+    font-size: 20px;
 }
 
 p{
@@ -10,8 +11,28 @@ h1{
     color: tomato;
 }
 
+#cabezera{
+    width: 100%;
+    height: max-content;
+    padding: 2em;
+    background-image: url(../img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#cabezera >h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 
-
+}
+#cabezera > ol li{
+    display: inline-block;
+    padding: 0 1em;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
 .blogs{
     border: 1px solid black;
     box-shadow: 2px 2px solid black;
@@ -24,4 +45,9 @@ h1{
     padding: .5em;
     color: black;
     border: none;
+}
+
+
+.footer{
+    
 }
